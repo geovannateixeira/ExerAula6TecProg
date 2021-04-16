@@ -1,12 +1,3 @@
-function getSelectedCheckboxValues(name) {
-    const checkboxes = document.querySelectorAll(`input[name="${name}"]:checked`);
-    let values = [];
-    checkboxes.forEach((checkbox) => {
-        values.push(checkbox.value);
-    });
-    return values;
-}
-
 var http = require('http');
 var url = require('url');
 var opc = require('./matematica.js');
